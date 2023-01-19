@@ -15,7 +15,7 @@ What to finish exactly:
 - Will upload all the notes that i took in different formats 
 	- HTML (from Notion -- if it contains code) 
 	- .txt (if it contains text only) 
-
+- at least 1 commit ((daily))
 
 
 Deadline: 20/4/2023 
