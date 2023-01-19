@@ -4,5 +4,5 @@
 
 They will be: 
 - C files 
-- Notion (HTML) 
+- Notion Links
 
