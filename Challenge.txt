@@ -18,7 +18,15 @@ What to finish exactly:
 - at least 1 commit ((daily))
 
 
+
+/*		Notes			*/
+
+- The first Lecture in this challenge is the unit2_lesson3_C_Basics
+
+
 Deadline: 20/4/2023 
 
 
 /*	Daily Updates (to make myself accountable)	*/
+
+19/1/2023: 
