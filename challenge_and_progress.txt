@@ -1,16 +1,17 @@
-This is a Challenge to finish unit (2,3) in 3 Months 
+# This is a Challenge to finish unit (1,2) in 3 Months 
 
 
 
-What to finish exactly: 
-- Videos (Lectures + Sections) 
+What to finish exactly (in order): 
+- Lectures
 - Assignments
 - Quizes 
+- Sections 
 - Exams 
 - Projects 
 
 
-/*		What will I do		*/
+## What will I do	
 
 - Will upload all the notes that i took in the following format: 
 	- Notion Link (inside of a .txt file)
@@ -19,15 +20,14 @@ What to finish exactly:
 
 
 
-/*		Notes			*/
-
+## Notes		
 - The first Lecture in this challenge is the unit2_lesson3_C_Basics
 
 
-Deadline: 20/4/2023 
+# Deadline: 20/4/2023 
 
 
-/*	Daily Updates (to make myself accountable)	*/
+## Daily Updates (to make myself accountable)
 
 19/1/2023: unit2_lesson3_C_basics
 20/1/2023: unit2_lesson3_C_basics + Assignments
