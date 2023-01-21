@@ -6,6 +6,7 @@
 What to finish exactly (in order): 
 - Lectures
 - Assignments
+- Labs 
 - Quizes 
 - Sections 
 - Exams 
