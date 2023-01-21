@@ -1,1 +1,1 @@
-/*		This Folder will contain all the Labs for all the Units		*/
+/*		This Folder will contain all the Labs covered in Lecture Videos for all the Units		*/
