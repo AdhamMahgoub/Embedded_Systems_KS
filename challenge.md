@@ -19,13 +19,3 @@ What to finish exactly (in order):
 
 ## Notes		
 - The first Lecture in this challenge is the unit2_lesson3_C_Basics
-
-
-## Daily Progress (to make myself accountable)
-19/1/2023: unit2_lesson3_C_basics
-20/1/2023: unit2_lesson3_C_basics + Assignments
-21/1/2023: --- 
-22/1/2023: 
-  - unit2_lesson3_C_basics 
-    - Labs
-    - Quiz  
