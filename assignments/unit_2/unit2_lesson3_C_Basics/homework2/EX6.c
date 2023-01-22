@@ -1,3 +1,5 @@
+/*          EX6: C Program to Calculate Sum of Natural Numbers       */
+
 #include <stdio.h>
 #include <stdlib.h>
 
