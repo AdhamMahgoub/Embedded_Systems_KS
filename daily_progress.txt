@@ -6,4 +6,4 @@ Daily Progress (to make myself accountable)
 22/1/2023: 
   - unit2_lesson3_C_basics 
     - Labs
-    - Quiz  
+    - Quiz (Trial_1)
