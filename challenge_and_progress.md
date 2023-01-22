@@ -21,7 +21,7 @@ What to finish exactly (in order):
 - The first Lecture in this challenge is the unit2_lesson3_C_Basics
 
 
-## Daily Updates (to make myself accountable)
+## Daily Progress (to make myself accountable)
 19/1/2023: unit2_lesson3_C_basics
 20/1/2023: unit2_lesson3_C_basics + Assignments
 21/1/2023: --- 
