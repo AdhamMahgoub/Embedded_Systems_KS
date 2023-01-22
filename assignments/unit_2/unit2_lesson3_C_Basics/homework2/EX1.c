@@ -1,4 +1,4 @@
-/*      EX1: Write C Program to Check Whether a Number is Even or Odd       */
+/*          EX1: Write C Program to Check Whether a Number is Even or Odd       */
 
 
 #include <stdio.h>
