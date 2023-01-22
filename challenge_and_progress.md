@@ -25,4 +25,7 @@ What to finish exactly (in order):
 19/1/2023: unit2_lesson3_C_basics
 20/1/2023: unit2_lesson3_C_basics + Assignments
 21/1/2023: --- 
-22/1/2023: unit2_lesson3_C_basics Labs 
+22/1/2023: 
+  - unit2_lesson3_C_basics 
+    - Labs
+    - Quiz  
