@@ -7,3 +7,5 @@ Daily Progress (to make myself accountable)
   - unit2_lesson3_C_basics 
     - Labs
     - Quiz (Trial_1)
+  - unit2 lesson 3 quiz solution 
+    - (stopped at minute 24)
