@@ -1,3 +1,5 @@
+/*          EX8: C Program to Make a Simple Calculator to Add, Subtract, Multiply or Divide using switch..case       */
+
 #include <stdio.h>
 #include <stdlib.h>
 
