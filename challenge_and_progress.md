@@ -2,7 +2,6 @@
 # Deadline: 20/4/2023 
 
 
-
 What to finish exactly (in order): 
 - Lectures
 - Assignments
@@ -14,10 +13,8 @@ What to finish exactly (in order):
 
 
 ## What will I do	
-
 - Will upload all the assignments, projects 
 - at least 1 commit ((daily)) -- Consistency 
-
 
 
 ## Notes		
@@ -25,8 +22,7 @@ What to finish exactly (in order):
 
 
 ## Daily Updates (to make myself accountable)
-
 19/1/2023: unit2_lesson3_C_basics
 20/1/2023: unit2_lesson3_C_basics + Assignments
 21/1/2023: --- 
-22/1/2023: 
+22/1/2023: unit2_lesson3_C_basics Labs 
