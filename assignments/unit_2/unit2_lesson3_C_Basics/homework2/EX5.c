@@ -1,3 +1,5 @@
+/*          EX5: C Program to Check Whether a Character is an Alphabet or not       */
+
 #include <stdio.h>
 #include <stdlib.h>
 
