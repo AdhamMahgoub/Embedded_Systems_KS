@@ -1,4 +1,4 @@
-/*          EX1: C Program to Check Vowel or Consonant        */
+/*          EX2: C Program to Check Vowel or Consonant        */
 
 #include <stdio.h>
 #include <stdlib.h>
