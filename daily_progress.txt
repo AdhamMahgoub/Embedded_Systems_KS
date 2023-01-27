@@ -12,4 +12,3 @@ Daily Progress (to make myself accountable)
 26/1/2023:  - unit2 lesson 3 quiz solution (stopped at minute 1:49)
 27/1/2023:  
             - unit2 lesson 3 quiz solution (till the end)
-            - unit2_lesson3_C_basics (Assignment_2 using Ternary Operator) --- NOT DONE YET
