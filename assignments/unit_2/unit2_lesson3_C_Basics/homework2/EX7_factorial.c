@@ -8,8 +8,8 @@
 int main()
 {
     int n, factorial = 1,i;
-    printf("Enter an integer: ");
-    scanf("%d",&n);
+    printf("Enter an integer: "); 
+    scanf("%d",&n);                     //  scanning the number
 
     if (n<0)
         printf("Error!!! Factorial of a negative number doesn't exist. ");
