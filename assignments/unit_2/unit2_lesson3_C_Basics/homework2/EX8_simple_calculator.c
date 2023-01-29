@@ -10,9 +10,11 @@ int main()
     char operator_choice;
     float operand1, operand2;
 
+    /*      Reading the Operator    */
     printf("Enter operator either + or - or * or divide : ");
     scanf("%c",&operator_choice);
 
+    /*      Reading the Operands    */
     printf("Enter two operands: ");
     scanf("%f%f",&operand1, &operand2);
 
