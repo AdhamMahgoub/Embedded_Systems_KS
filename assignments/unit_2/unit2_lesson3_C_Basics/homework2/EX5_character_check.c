@@ -9,9 +9,9 @@ int main()
 {
     char x;
     printf("Enter a character: ");
-    scanf("%c",&x);
+    scanf("%c",&x);                                      // scanning character 
 
-    if ((x>=65 && x<=90) || (x>=97 && x<=122) )
+    if ((x>=65 && x<=90) || (x>=97 && x<=122) )         //  checking if it lies in the ASCII range  
         printf("%c is an alphabet",x);
 
     else
