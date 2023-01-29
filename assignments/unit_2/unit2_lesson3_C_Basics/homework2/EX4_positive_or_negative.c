@@ -10,16 +10,16 @@ int main()
 {
     float a;
 
-    printf("Enter a number: ");
+    printf("Enter a number: ");         
 
-    scanf("%f",&a);
+    scanf("%f",&a);                     //  scanning number 
 
     if (a>0)
-        printf("%.2f is positive",a);
+        printf("%.2f is positive",a);   //  positive number 
 
     else if (a<0)
-        printf("%.2f is negative",a);
+        printf("%.2f is negative",a);   // negative number 
 
     else if (a==0)
-        printf("You entered zero.");
+        printf("You entered zero.");    // zero 
 }
