@@ -16,11 +16,10 @@ int main()
     int i;
     for (i=1; i<=n; i++)
     {
-        sum += i;
-
+        sum += i;       //  adding the numbers to the sum variable 
     }
 
-    printf("Sum = %d",sum);
+    printf("Sum = %d",sum); //  printing the sum of the range
 
 
 
