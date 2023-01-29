@@ -11,9 +11,11 @@ int main()
     printf("Enter an alphabet: ");
     scanf("%c",&x);
 
-    if (x=='a' || x=='e' || x=='i' || x=='o')
+    /*  checking if a vowel or consonent  */
+
+    if (x=='a' || x=='e' || x=='i' || x=='o')       //  if vowel 
         printf("%c is a vowel" ,x);
 
     else
-        printf("%c is a consonant" ,x);
+        printf("%c is a consonant" ,x);             // if consonant
 }
