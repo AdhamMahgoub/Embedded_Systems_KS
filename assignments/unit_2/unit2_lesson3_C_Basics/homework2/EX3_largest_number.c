@@ -11,14 +11,14 @@ int main()
 
     printf("Enter three numbers: ");
 
-    scanf("%f%f%f",&a,&b,&c);
+    scanf("%f%f%f",&a,&b,&c);               //  scanning the 3 numbers 
 
     if (a>b && a>c)
-        printf("Largest number = %.2f",a);
+        printf("Largest number = %.2f",a);  //  a is largest 
 
     else if (b>a && b>c)
-        printf("Largest number = %.2f",b);
+        printf("Largest number = %.2f",b);  //  b is largest 
 
     else if (c>a && c>b)
-        printf("Largest number = %.2f",c);
+        printf("Largest number = %.2f",c);  //  c is largest 
 }
