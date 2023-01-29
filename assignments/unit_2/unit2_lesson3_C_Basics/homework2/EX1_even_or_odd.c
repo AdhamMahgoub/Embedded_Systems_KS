@@ -12,6 +12,8 @@ int main()
     printf("Enter an integer you want to check: ");
     scanf("%d",&a);
 
+
+    /*   check even or odd   */
     if (a%2 == 0)
         printf("%d is even\n",a);
     else
