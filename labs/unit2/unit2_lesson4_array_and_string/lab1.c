@@ -1,3 +1,6 @@
+/*		Lab: Store and Print 10 embedded_system Students Degrees		*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
