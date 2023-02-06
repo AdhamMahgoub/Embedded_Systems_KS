@@ -20,6 +20,8 @@ Daily Progress (to make myself accountable)
 03/1/2023:   ---
 04/1/2023:   ---
 05/1/2023:  - unit2 lesson 4 array and string (till the end) + Assignment (not all) 
+06/1/2023:  - unit2 lesson 4 array and string Assignment (not all)
+
              
 
 
