@@ -2,23 +2,22 @@ Daily Progress (to make myself accountable)
 
 19/1/2023:   unit2_lesson3_C_basics
 20/1/2023:   unit2_lesson3_C_basics + Assignments
-21/1/2023:   --- 
-22/1/2023: 
-            - unit2_lesson3_C_basics (Labs + Quiz Trial_1)
+21/1/2023:   --------------- 
+22/1/2023:  - unit2_lesson3_C_basics (Labs + Quiz Trial_1)
             - unit2 lesson 3 quiz solution (stopped at minute 24)
-23/1/2023:   ---
-24/1/2023:   ---
-25/1/2023:   ---
+23/1/2023:   ---------------
+24/1/2023:   ---------------
+25/1/2023:   ---------------
 26/1/2023:  - unit2 lesson 3 quiz solution (stopped at minute 1:49)
 27/1/2023:  - unit2 lesson 3 quiz solution (till the end)
 28/1/2023:  - unit2 lesson 4 array and string (stopped at 10) 
 29/1/2023:  - unit2 lesson 4 array and string (stopped at 41) 
-30/1/2023:   --- 
+30/1/2023:  --------------- 
 31/1/2023:  - unit2 lesson 4 array and string (stopped at 1:15)
 01/1/2023:  - unit2 lesson 4 array and string (stopped at 1:30)
-02/1/2023:   ---
-03/1/2023:   ---
-04/1/2023:   ---
+02/1/2023:   ---------------
+03/1/2023:   ---------------
+04/1/2023:   ---------------
 05/1/2023:  - unit2 lesson 4 array and string (till the end) + Assignment (not all) 
 06/1/2023:  - unit2 lesson 4 array and string Assignment (not all)
 
