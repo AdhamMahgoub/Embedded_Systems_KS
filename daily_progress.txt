@@ -19,7 +19,7 @@ Daily Progress (to make myself accountable)
 03/1/2023:   ---------------
 04/1/2023:   ---------------
 05/1/2023:  - unit2 lesson 4 array and string (till the end) + Assignment (not all) 
-06/1/2023:  - unit2 lesson 4 array and string Assignment (not all)
+06/1/2023:  - unit2 lesson 4 array and string Assignment 
 07/1/2023:   ---------------
 08/1/2023:   ---------------
 09/1/2023:   ---------------
@@ -34,7 +34,7 @@ Daily Progress (to make myself accountable)
 16/1/2023:  - Quiz_2 Trial_1
             - Quiz_3 Trial_1
             - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 47)
-17/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String)
+17/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 1:58)
             - Quiz_1 Trial_2
             - Quiz_2 Trial_2
             - Quiz_3 Trial_2
