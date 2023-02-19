@@ -31,11 +31,11 @@ Daily Progress (to make myself accountable)
 15/1/2023:   ---------------
 16/1/2023:   ---------------
 17/1/2023:   ---------------
-16/1/2023:  - Quiz_2 Trial_1
+18/1/2023:  - Quiz_2 Trial_1
             - Quiz_3 Trial_1
             - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 47)
-17/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 2:32)
-17/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at )
+19/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 2:32)
+20/1/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at )
             - Quiz_1 Trial_2
             - Quiz_2 Trial_2
             - Quiz_3 Trial_2
