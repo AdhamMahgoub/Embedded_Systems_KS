@@ -42,9 +42,3 @@ Daily Progress (to make myself accountable)
 21/2/2023:   ---------------
 22/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 4:19)
 23/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (till the end)
-
-
-
-
-
-
