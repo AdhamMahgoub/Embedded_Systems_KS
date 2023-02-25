@@ -37,10 +37,10 @@ Daily Progress (to make myself accountable)
 19/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 2:32)
 20/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 3:29)
             - Quiz_1 Trial_2
-            - Quiz_2 Trial_2
-            - Quiz_3 Trial_2
 21/2/2023:   ---------------
 22/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 4:19)
 23/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (stopped at 4:53)
 24/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (till the end)
             - Quiz_1 Trial_3
+25/2/2023:  - unit 2. lesson 4. Section (C Conditions & Loops & Array & String) (till the end)
+            - Quiz_2 Trial_2
