@@ -3,22 +3,25 @@
 
 int factorial (int n)
 {
-    int result = 1; 
+	int result = 1;
 
-    while (n!=0)
-    {
-        result *= n; 
-        n--; 
-    }
-    
-    return result; 
+	while (n!=0)
+	{
+		result *= n;
+		n--;
+	}
+
+	return result;
 }
 
 
 int main(void)
 {
-    
-    printf("result = %d",factorial(3));
 
-    return 0; 
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	printf("factorial of (%d) = %d",3, factorial(3));
+
+	return 0;
 }
