@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void reverse(char arr[], int n)
+{
+    if (n + 1 <= strlen(arr)-1)
+        reverse(arr, n + 1);
+
+    printf("%c", arr[n]);
+}
+
+int main()
+{
+    char str_arr[100];
+
+    printf("Enter a sentence: ");
+    gets(str_arr);
+
+    reverse(str_arr,0);
+
+    return 0;
+}

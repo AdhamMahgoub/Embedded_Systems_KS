@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int result = 1;
+
+int power_fnctn(int base, int power)
+{
+    result *= base;
+    if (power - 1 != 0)
+        power_fnctn(base, power - 1);
+
+    return result;
+}
+int main()
+{
+
+    int base, power_num;
+    printf("Enter base number: ");
+    scanf("%d", &base);
+
+    printf("Enter power number (positive integer): ");
+    scanf("%d", &power_num);
+
+    printf("%d^%d = %d", base, power_num, power_fnctn(base, power_num));
+
+    return 0;
+}
