@@ -1,10 +1,5 @@
 Daily Progress (to make myself accountable)
 
-[ ] C Basics
-[ ] Array and String 
-[ ] Functions
-
-
 19/1/2023:   unit2_lesson3_C_basics
 20/1/2023:   unit2_lesson3_C_basics + Assignments
 21/1/2023:   --------------- 
