@@ -85,4 +85,6 @@ Daily Progress (to make myself accountable)
 3/4/2023:   ---------- 
 4/4/2023:   - unit2_lesson6_structures_union_enum_part2 (till the end) 
             - unit2_lesson6_structures_union_enum Assignment 
-
+5/4/2023:   ----------
+6/4/2023:   - quiz5_Trial1 
+            - unit2_lesson6_structures_union_enum_section
