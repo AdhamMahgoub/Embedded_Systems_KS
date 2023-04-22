@@ -104,5 +104,5 @@ Daily Progress (to make myself accountable)
 19/4/2023:   ----------
 20/4/2023:   ----------
 21/4/2023:   ----------
-22/4/2023:   
+22/4/2023:   - unit2_lesson7_Preprocessor_Directives part 2 (till the end)   
 
