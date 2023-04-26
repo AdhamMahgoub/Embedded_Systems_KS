@@ -109,4 +109,5 @@ Daily Progress (to make myself accountable)
 23/4/2023:   - unit2_lesson7_Preprocessor_Directives section
              - unit2_lesson8_Pointers (stopped at 24)
 24/4/2023:   - unit2_lesson8_Pointers (stopped at 1:30)
+25/4/2023:   - unit2_lesson8_Pointers (stopped at 3:15)
 
