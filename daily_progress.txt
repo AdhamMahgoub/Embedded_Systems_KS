@@ -110,4 +110,6 @@ Daily Progress (to make myself accountable)
              - unit2_lesson8_Pointers (stopped at 24)
 24/4/2023:   - unit2_lesson8_Pointers (stopped at 1:30)
 25/4/2023:   - unit2_lesson8_Pointers (stopped at 3:15)
+26/4/2023:   - unit2_lesson8_Pointers (stopped at 3:44)
+27/4/2023:   ----------
 
