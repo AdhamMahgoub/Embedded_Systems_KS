@@ -112,4 +112,7 @@ Daily Progress (to make myself accountable)
 25/4/2023:   - unit2_lesson8_Pointers (stopped at 3:15)
 26/4/2023:   - unit2_lesson8_Pointers (stopped at 3:44)
 27/4/2023:   ----------
+28/4/2023:   - unit2_lesson8_Pointers (till the end)
+             - unit2_lesson8_Pointers (solved the assignment -- except last questions) 
+ 29/4/2023:  - Quiz_7 Trial_1
 
