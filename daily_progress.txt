@@ -116,4 +116,7 @@ Daily Progress (to make myself accountable)
              - unit2_lesson8_Pointers (solved the assignment -- except last questions) 
 29/4/2023:  - Quiz_7 Trial_1
             - unit2_lesson8_Pointers section part 1 (stopped at 44) 
-
+30/4/2023:  - Mastered Pointers (pointer to anything) 
+31/4/2023:  - Mastered Pointers (pointer to anything) 
+1/5/2023:   - Mastered Pointers (pointer to anything) 
+2/5/2023:   - 
