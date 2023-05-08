@@ -119,4 +119,11 @@ Daily Progress (to make myself accountable)
 30/4/2023:  - Mastered Pointers (pointer to anything) 
 31/4/2023:  - Mastered Pointers (pointer to anything) 
 1/5/2023:   - Mastered Pointers (pointer to anything) 
-2/5/2023:   - 
+2/5/2023:   ----------
+3/5/2023:   ----------
+4/5/2023:   ----------
+5/5/2023:   ----------
+6/5/2023:   ----------
+7/5/2023:   - unit2_lesson8_Pointers section part 1 (stopped at 1:30) 
+8/5/2023:   - unit2_lesson8_Pointers section part 1 (stopped at 1:58) 
+
