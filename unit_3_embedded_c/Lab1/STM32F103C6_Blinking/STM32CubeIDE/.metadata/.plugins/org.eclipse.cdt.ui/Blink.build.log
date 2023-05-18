@@ -1,0 +1,19 @@
+13:46:17 **** Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    656	      8	   1568	   2232	    8b8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+
+13:46:18 Build Finished. 0 errors, 0 warnings. (took 868ms)
+
