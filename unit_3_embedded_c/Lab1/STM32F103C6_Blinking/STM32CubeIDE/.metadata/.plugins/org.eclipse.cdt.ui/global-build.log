@@ -14,3 +14,58 @@ Finished building: Blink.hex
 Finished building: Blink.list
  
  
+09:10:52 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+../Src/main.c:30:52: error: cast to union type from type not present in union
+   30 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |                                                    ^
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+09:11:23 **** Clean-only build of configuration Debug for project Blink ****
+make -j8 clean 
+rm -rf ./Startup/startup_stm32f103c6tx.d ./Startup/startup_stm32f103c6tx.o
+rm -rf ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf Blink.elf Blink.hex Blink.list Blink.map default.size.stdout
+ 
+09:11:23 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    640	      8	   1568	   2216	    8a8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+09:12:35 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    668	     12	   1564	   2244	    8c4	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 

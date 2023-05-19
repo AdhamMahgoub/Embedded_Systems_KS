@@ -491,3 +491,40 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\adham\D
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-05-18 13:46:02.127
 !MESSAGE Indexed 'Blink' (3 sources, 7 headers) in 1.61 sec: 142 declarations; 413 references; 10 unresolved inclusions; 0 syntax errors; 21 unresolved names (3.6%)
+!SESSION 2023-05-19 09:04:38.390 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-19 09:05:07.537
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-19 09:05:07.676
+!MESSAGE Log4j initialized with config file C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-19 09:05:30.024
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-05-19 09:15:34.074 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\Blink\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\Blink\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-19 09:16:04.824
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-19 09:16:05.001
+!MESSAGE Log4j initialized with config file C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-19 09:16:21.912
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-19 09:16:26.256
+!MESSAGE Indexed 'Blink' (3 sources, 53 headers) in 1.34 sec: 1,958 declarations; 2,854 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-05-19 09:16:46.354
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1

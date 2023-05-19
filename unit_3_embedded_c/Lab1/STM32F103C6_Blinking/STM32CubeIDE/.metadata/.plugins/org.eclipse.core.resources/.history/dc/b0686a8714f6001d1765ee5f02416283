@@ -25,7 +25,8 @@ typedef union
 
 }access_any_register_t;
 
-// Pointer to Union // Pointer to Union points to the address of register ODR
+// Pointer to Union
+
 volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
 
 
@@ -45,12 +46,10 @@ int main(void)
 		int i;
 		for (i=0; i<50000; i++);
 		//ODR_Register = 1<<13;
-		pointer_to_union->register_bits.bit13 = 1;
 
 
 		for (i=0; i<50000; i++);
 		//ODR_Register = 0<<13;
-		pointer_to_union->register_bits.bit13 = 0;
 	}
 
 
