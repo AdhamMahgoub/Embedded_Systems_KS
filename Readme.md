@@ -7,6 +7,8 @@ Contains:
 
 
 
+# Personal Info: 
+### Adham Mahgoub
 Linkedin: https://www.linkedin.com/in/adham-mahgoub-7536911b1/
 
 Email: adhammahgoub1@gmail.com
@@ -14,4 +16,4 @@ Email: adhammahgoub1@gmail.com
 Mobile Number: 01000315558
 
 Learn_in_depth (my profile): https://www.learn-in-depth.com/onlinediploma/adhammahgoub1%40gmail.com
-### Adham Mahgoub
+
