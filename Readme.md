@@ -8,5 +8,8 @@ Contains:
 
 
 Linkedin: https://www.linkedin.com/in/adham-mahgoub-7536911b1/
+Email: adhammahgoub1@gmail.com
+Mobile Number: 01000315558
+
 Learn_in_depth (my profile): https://www.learn-in-depth.com/online-diploma/adhammahgoub1%40gmail.com
 ### Adham Mahgoub
