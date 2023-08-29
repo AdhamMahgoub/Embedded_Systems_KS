@@ -21,3 +21,36 @@ int main()
 
     return 0;
 }
+
+
+/*********************************** Another Solution ***********************************\
+
+#include <stdio.h>
+
+
+int factorial(int n)
+{
+	if (n == 1)
+		return 1;
+	else
+		return n * factorial(n - 1);
+}
+
+int main()
+{
+
+	int result = factorial(3);
+    /*    result = factorial(3); 
+          result = n*factorial(n-1);   
+          result = .............
+    */
+        
+	printf("%d",result);
+
+	return 0;
+}
+
+
+
+
+
