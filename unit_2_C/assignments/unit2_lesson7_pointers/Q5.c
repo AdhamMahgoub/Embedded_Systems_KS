@@ -38,7 +38,7 @@ int main()
 	for (i=0; i<2; i++)
 	{
 		printf("Employee %d\n",i+1);
-		printf("id = %d\n", (*(*ptr_to_array+i))->id); // Note: lazem bracket barra 5ales
+		printf("id = %d\n", (*(*ptr_to_array+i))->id); // Note: lazem bracket barra 5ales (ya3nii yeb2a el ptr to struct ma2fool 3aleeh bracket) 
 		printf("name = %s\n",(*(*ptr_to_array+i))->name);
 
 		printf("\n");
