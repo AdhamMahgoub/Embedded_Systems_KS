@@ -27,6 +27,10 @@ int main()
 	 * 					*ptr_to_array = base address of of array (== array name) -- now this becomes pointer to int
 	 * 					*(ptr_to_array + i) = address of the ith element in the array
 	 * 					*(*(ptr_to_array + i)) = value of the ith element in the array (which is the pointer to struct)
+
+	 * 					ptr_to_array 			= pointer to array containing pointer to struct
+	 * 					*ptr_to_array 			= pointer to pointer to struct
+	 * 					**ptr_to_array 			= pointer to struct
 	 */
 
 
@@ -36,7 +40,7 @@ int main()
 		printf("Employee %d\n",i+1);
 		printf("id = %d\n", (*(*ptr_to_array+i))->id); // Note: lazem bracket barra 5ales
 		printf("name = %s\n",(*(*ptr_to_array+i))->name);
-		
+
 		printf("\n");
 	}
 
