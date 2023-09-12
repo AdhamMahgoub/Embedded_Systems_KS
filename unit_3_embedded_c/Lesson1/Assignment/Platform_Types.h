@@ -3,7 +3,7 @@
 
 typedef _Bool                       		boolean;
 
-typedef signed char                 		sint8_t;		//	1 byte 
+typedef signed char                 		sint8_t;		//	1 byte 	
 typedef unsigned char               		uint8_t;
 
 typedef signed short                		sint16_t;		//	2 bytes
@@ -31,3 +31,5 @@ typedef float       						float32;
 typedef double      						float64;
 
 #endif 
+
+
