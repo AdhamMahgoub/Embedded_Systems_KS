@@ -1,0 +1,16 @@
+!SESSION 2023-09-13 08:47:36.138 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-13 08:48:30.522
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-13 08:48:30.688
+!MESSAGE Log4j initialized with config file C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-13 08:48:43.255
+!MESSAGE Started RMI Server, listening on port 41337

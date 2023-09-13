@@ -39,10 +39,12 @@ int main(void)
 	CRH_Register &= 0xFF0FFFFF;
 	CRH_Register |= 0x00200000;
 
+
+	int i = 0;
+
 	while(1)
 	{
 		// write (1) and (0) “toggle” on Register GPIO_ODR pin 13
-		int i;
 		for (i=0; i<50000; i++);
 		//ODR_Register = 1<<13;
 		pointer_to_union->register_bits.bit13 = 1;
