@@ -1,0 +1,13 @@
+#ifndef GPIOA_H_
+#define GPIOA_H_
+
+/*	GPIOA Module	*/
+#define GPIOA_PA_Module_Base_Address	0x40010800
+#define CRH_Register_Offset				0x04
+#define ODR_Register_Offset				0x0C
+
+#define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+#define ODR_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset))
+
+
+#endif /* GPIOA_H_ */

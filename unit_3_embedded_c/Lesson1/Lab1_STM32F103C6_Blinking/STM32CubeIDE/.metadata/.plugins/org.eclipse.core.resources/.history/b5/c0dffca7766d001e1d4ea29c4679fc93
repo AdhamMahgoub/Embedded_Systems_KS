@@ -1,0 +1,11 @@
+#ifndef RCC_H_
+#define RCC_H_
+
+/*	RCC Module		*/
+#define RCC_Module_Base_Address			0x40021000
+#define APB2ENR_Register_Offset 		0x18
+#define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+
+
+
+#endif /* RCC_H_ */

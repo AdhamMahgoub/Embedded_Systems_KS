@@ -332,7 +332,7 @@
      <ITEM name="TopLineAddress">40023000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1023" x="1127" flags="0000802b" y="-915" h="539" pid="100" iid="1">
+   <POPUP w="1023" x="1127" flags="0000002a" y="-915" h="539" pid="100" iid="1">
     <PROPERTIES>
      <ITEM name="Breakpoint 0">"main",800011A,000D,3D2B,11EC,1
 </ITEM>

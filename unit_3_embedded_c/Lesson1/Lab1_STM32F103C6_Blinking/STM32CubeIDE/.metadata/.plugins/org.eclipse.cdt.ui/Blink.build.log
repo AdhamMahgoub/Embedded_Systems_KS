@@ -1,20 +1,20 @@
-09:12:35 **** Incremental Build of configuration Debug for project Blink ****
+08:04:19 **** Incremental Build of configuration Debug for project Blink ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lab1\STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Blink.elf
  
 arm-none-eabi-size   Blink.elf 
 arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
 arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
    text	   data	    bss	    dec	    hex	filename
-    668	     12	   1564	   2244	    8c4	Blink.elf
+    672	     12	   1564	   2248	    8c8	Blink.elf
 Finished building: default.size.stdout
  
 Finished building: Blink.hex
+ 
 Finished building: Blink.list
  
- 
 
-09:12:35 Build Finished. 0 errors, 0 warnings. (took 644ms)
+08:04:20 Build Finished. 0 errors, 0 warnings. (took 1s.62ms)
 

@@ -401,8 +401,8 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x0000000000000000      0x118
- .debug_info    0x0000000000000000      0x118 ./Src/main.o
+.debug_info     0x0000000000000000      0x124
+ .debug_info    0x0000000000000000      0x124 ./Src/main.o
 
 .debug_abbrev   0x0000000000000000       0xcf
  .debug_abbrev  0x0000000000000000       0xcf ./Src/main.o
@@ -420,9 +420,9 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 .debug_line     0x0000000000000000       0x85
  .debug_line    0x0000000000000000       0x85 ./Src/main.o
 
-.debug_str      0x0000000000000000      0x1d3
- .debug_str     0x0000000000000000      0x1d3 ./Src/main.o
-                                        0x207 (size before relaxing)
+.debug_str      0x0000000000000000      0x1dd
+ .debug_str     0x0000000000000000      0x1dd ./Src/main.o
+                                        0x211 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
  .comment       0x0000000000000000       0x50 ./Src/main.o

@@ -69,3 +69,336 @@ Finished building: Blink.hex
 Finished building: Blink.list
  
  
+07:07:39 **** Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-size   Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+07:11:54 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.list
+ 
+Finished building: Blink.hex
+ 
+07:12:37 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+07:22:09 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:9:2: error: unknown type name 'vuint32'
+    9 |  vuint32 whole_register;
+      |  ^~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+07:22:59 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:7:38: error: expected ';' before 'typedef'
+    7 | typedef volatile unsigned int vuint32
+      |                                      ^
+      |                                      ;
+    8 | typedef union
+      | ~~~~~~~                               
+../Src/main.c:10:2: error: unknown type name 'vuint32'
+   10 |  vuint32 whole_register;
+      |  ^~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+07:23:06 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:7:38: error: expected ';' before 'typedef'
+    7 | typedef volatile unsigned int vuint32
+      |                                      ^
+      |                                      ;
+    8 | typedef union
+      | ~~~~~~~                               
+../Src/main.c:10:2: error: unknown type name 'vuint32'
+   10 |  vuint32 whole_register;
+      |  ^~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+07:23:10 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+07:30:32 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+07:38:34 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+Finished building: Blink.list
+ 
+ 
+07:57:00 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-size   Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+08:03:52 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:21:2: error: unknown type name 'vuint32_t'
+   21 |  vuint32_t whole_register;
+      |  ^~~~~~~~~
+../Src/main.c:24:3: error: unknown type name 'vuint32_t'
+   24 |   vuint32_t Reserved: 13; // bit 0-12 not used
+      |   ^~~~~~~~~
+../Src/main.c:25:3: error: unknown type name 'vuint32_t'
+   25 |   vuint32_t bit13: 1;     // bit 13 (index 14)
+      |   ^~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t;
+      |                               ^~~~~~~~~
+../Src/main.c:31:53: note: in expansion of macro 'volatile'
+   31 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |                                                     ^~~~~~~~
+../Src/main.c:31:52: note: to match this '('
+   31 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |                                                    ^
+../Src/main.c:31:52: warning: initialization of 'access_any_register_t *' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+../Src/main.c: In function 'main':
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t;
+      |                               ^~~~~~~~~
+../Src/main.c:16:29: note: in expansion of macro 'volatile'
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                             ^~~~~~~~
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:16:28: note: to match this '('
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                            ^
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:16:26: error: invalid type argument of unary '*' (have 'unsigned int')
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t;
+      |                               ^~~~~~~~~
+../Src/main.c:10:25: note: in expansion of macro 'volatile'
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                         ^~~~~~~~
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:24: note: to match this '('
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                        ^
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:22: error: invalid type argument of unary '*' (have 'unsigned int')
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t;
+      |                               ^~~~~~~~~
+../Src/main.c:10:25: note: in expansion of macro 'volatile'
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                         ^~~~~~~~
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:24: note: to match this '('
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                        ^
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:22: error: invalid type argument of unary '*' (have 'unsigned int')
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+08:04:09 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:21:2: error: unknown type name 'vuint32_t'
+   21 |  vuint32_t whole_register;
+      |  ^~~~~~~~~
+../Src/main.c:24:3: error: unknown type name 'vuint32_t'
+   24 |   vuint32_t Reserved: 13; // bit 0-12 not used
+      |   ^~~~~~~~~
+../Src/main.c:25:3: error: unknown type name 'vuint32_t'
+   25 |   vuint32_t bit13: 1;     // bit 13 (index 14)
+      |   ^~~~~~~~~
+../Src/main.c:31:10: error: expected ';' before 'access_any_register_t'
+   31 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |          ^~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t
+      |                               ^~~~~~~~~
+../Src/main.c:31:53: note: in expansion of macro 'volatile'
+   31 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |                                                     ^~~~~~~~
+../Src/main.c:31:52: note: to match this '('
+   31 | volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+      |                                                    ^
+../Src/main.c:31:52: warning: initialization of 'access_any_register_t *' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+../Src/main.c: In function 'main':
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t
+      |                               ^~~~~~~~~
+../Src/main.c:16:29: note: in expansion of macro 'volatile'
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                             ^~~~~~~~
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:16:28: note: to match this '('
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                            ^
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:16:26: error: invalid type argument of unary '*' (have 'unsigned int')
+   16 | #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:37:2: note: in expansion of macro 'APB2ENR_Register'
+   37 |  APB2ENR_Register = 1<<2;
+      |  ^~~~~~~~~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t
+      |                               ^~~~~~~~~
+../Src/main.c:10:25: note: in expansion of macro 'volatile'
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                         ^~~~~~~~
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:24: note: to match this '('
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                        ^
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:22: error: invalid type argument of unary '*' (have 'unsigned int')
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:41:2: note: in expansion of macro 'CRH_Register'
+   41 |  CRH_Register &= 0xFF0FFFFF;
+      |  ^~~~~~~~~~~~
+../Src/main.c:3:31: error: expected ')' before 'vuint32_t'
+    3 | #define volatile unsigned int vuint32_t
+      |                               ^~~~~~~~~
+../Src/main.c:10:25: note: in expansion of macro 'volatile'
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                         ^~~~~~~~
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:24: note: to match this '('
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                        ^
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+../Src/main.c:10:22: error: invalid type argument of unary '*' (have 'unsigned int')
+   10 | #define CRH_Register *((volatile unsigned int*)(GPIOA_PA_Module_Base_Address + CRH_Register_Offset))
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:42:2: note: in expansion of macro 'CRH_Register'
+   42 |  CRH_Register |= 0x00200000;
+      |  ^~~~~~~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+08:04:19 **** Incremental Build of configuration Debug for project Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -gdwarf-2 -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blink.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\adham\Desktop\Embedded_Systems_KS\unit_3_embedded_c\Lesson1\Lab1_STM32F103C6_Blinking\STM32CubeIDE\Blink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink.elf
+ 
+arm-none-eabi-size   Blink.elf 
+arm-none-eabi-objdump -h -S  Blink.elf  > "Blink.list"
+arm-none-eabi-objcopy  -O ihex  Blink.elf  "Blink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    672	     12	   1564	   2248	    8c8	Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink.hex
+ 
+Finished building: Blink.list
+ 

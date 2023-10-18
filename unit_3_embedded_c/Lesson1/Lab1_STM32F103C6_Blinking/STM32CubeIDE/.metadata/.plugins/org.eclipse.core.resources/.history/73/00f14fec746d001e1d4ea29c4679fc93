@@ -1,0 +1,52 @@
+#include <stdint.h>
+
+#include "RCC.h"
+#include "GPIOA.h"
+
+
+
+
+typedef union
+{
+	volatile unsigned int whole_register;
+	struct
+	{
+		volatile unsigned int Reserved: 13; // bit 0-12 not used
+		volatile unsigned int bit13: 1;     // bit 13 (index 14)
+	}register_bits;
+
+}access_any_register_t;
+
+// Pointer to Union // Pointer to Union points to the address of register ODR
+volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+
+
+int main(void)
+{
+	// write (1) on Register APB2ENR pin 2
+	APB2ENR_Register = 1<<2;
+
+
+	//write (0010) on Register CRH pins (20 - 24)
+	CRH_Register &= 0xFF0FFFFF;
+	CRH_Register |= 0x00200000;
+
+
+	int i = 0;
+
+	while(1)
+	{
+		// write (1) and (0) “toggle” on Register GPIO_ODR pin 13
+		for (i=0; i<50000; i++);
+		//ODR_Register = 1<<13;
+		pointer_to_union->register_bits.bit13 = 1;
+
+
+		for (i=0; i<50000; i++);
+		//ODR_Register = 0<<13;
+		pointer_to_union->register_bits.bit13 = 0;
+	}
+
+
+	return 0;
+}
