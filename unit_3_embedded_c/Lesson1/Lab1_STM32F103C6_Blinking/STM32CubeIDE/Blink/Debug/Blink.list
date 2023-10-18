@@ -78,7 +78,7 @@ Disassembly of section .text:
 
 08000170 <main>:
 // Pointer to Union // points to the address of register ODR register
-volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_PA_Module_Base_Address + ODR_Register_Offset);
+volatile access_any_register_t* pointer_to_union = (volatile access_any_register_t*)(GPIOA_Module_Base_Address + GPIO_ODR_Register_Offset);
 
 
 int main(void)
