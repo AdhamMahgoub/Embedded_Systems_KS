@@ -1,35 +1,37 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff59000000c3fcffffed080000b1000000</PLACEMENT>
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff39000000c3fcffffb80b000014010000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
   <PWI>
-   <POPUP w="400" x="290" flags="00000002" y="-992" h="100" pid="0" iid="-1">
+   <POPUP w="878" x="144" flags="00000002" y="-1198" h="470" pid="0" iid="-1">
     <PROPERTIES>
-     <ITEM name="Message Column Width">261</ITEM>
+     <ITEM name="Message Column Width">739</ITEM>
      <ITEM name="ShowGrid">No</ITEM>
      <ITEM name="Source Column Width">100</ITEM>
      <ITEM name="Time Column Width">120</ITEM>
      <ITEM name="Version">100</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="350" x="290" flags="00000032" y="-992" h="100" pid="1" iid="-1">
+   <POPUP w="761" x="470" flags="00000032" y="-713" h="299" pid="1" iid="-1">
     <PROPERTIES>
      <ITEM name="Address Column Width">87</ITEM>
      <ITEM name="AutoResize">No</ITEM>
      <ITEM name="Gridlines">Yes</ITEM>
-     <ITEM name="Name Column Width">87</ITEM>
+     <ITEM name="Item 0">"GPIOA_CRH","0x40010804",00000001,00000118,4,4,2,B7260000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 1">"0x40010804","0x40010804",00000001,00000118,4,1,2,00000002,0,00000000,00000000</ITEM>
+     <ITEM name="Name Column Width">199</ITEM>
      <ITEM name="ShowAddresses">Yes</ITEM>
      <ITEM name="ShowPreviousValues">No</ITEM>
      <ITEM name="ShowTypes">No</ITEM>
      <ITEM name="ShowWatchPoint">Yes</ITEM>
      <ITEM name="TriggerMode">0</ITEM>
-     <ITEM name="Value Column Width">87</ITEM>
+     <ITEM name="Value Column Width">235</ITEM>
      <ITEM name="Version">100</ITEM>
      <ITEM name="Watch Expression Column Width">87</ITEM>
-     <ITEM name="nItems">0</ITEM>
+     <ITEM name="nItems">2</ITEM>
     </PROPERTIES>
    </POPUP>
    <POPUP w="1" x="290" flags="0000000a" y="-992" h="1" pid="200" iid="1">
@@ -112,11 +114,12 @@
      <ITEM name="TopLineAddress">40007000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1" x="290" flags="0000000a" y="-992" h="1" pid="280" iid="1">
+   <POPUP w="36" x="264" flags="0000000a" y="-1250" h="32" pid="280" iid="1">
     <PROPERTIES>
      <ITEM name="DataType">2</ITEM>
-     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispChars">No</ITEM>
      <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="LastGoto0">0x40010800</ITEM>
      <ITEM name="ShowChanges">Yes</ITEM>
      <ITEM name="ShowToolTips">Yes</ITEM>
      <ITEM name="TopLineAddress">40010800</ITEM>
@@ -332,23 +335,23 @@
      <ITEM name="TopLineAddress">40023000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1023" x="1127" flags="0000002a" y="-915" h="539" pid="100" iid="1">
+   <POPUP w="1023" x="1377" flags="0000002a" y="-1257" h="539" pid="100" iid="1">
     <PROPERTIES>
-     <ITEM name="Breakpoint 0">"main",800011A,000D,3D2B,11EC,1
+     <ITEM name="Breakpoint 0">"frame_dummy",8000170,001B,F7A2,016B,-1
 </ITEM>
-     <ITEM name="Breakpoint 1">"main",800011C,000F,BB83,11EC,1
+     <ITEM name="Breakpoint 1">"main",8000176,0005,A925,016B,1
 </ITEM>
-     <ITEM name="Breakpoint 2">"main",8000128,001B,C565,11EC,1
+     <ITEM name="Breakpoint 2">"main",8000182,0011,BB83,016B,-1
 </ITEM>
-     <ITEM name="Breakpoint 3">"main",8000134,0027,C75A,11EC,1
+     <ITEM name="Breakpoint 3">"main",800018E,001D,C75A,016B,-1
 </ITEM>
-     <ITEM name="Breakpoint 4">"main",8000134,0027,F08C,11EC,1
+     <ITEM name="Breakpoint 4">"main",8000194,0023,7C3E,016B,1
 </ITEM>
-     <ITEM name="Breakpoint 5">"main",8000144,0037,B236,11EC,1
+     <ITEM name="Breakpoint 5">"main",80001EE,007D,88ED,016B,1
 </ITEM>
-     <ITEM name="Breakpoint 6">"main",8000166,0059,2B62,11EC,1
+     <ITEM name="Breakpoint 6">"main",80001C0,004F,05EB,016B,-1
 </ITEM>
-     <ITEM name="Breakpoint 7">"main",800018E,0081,EB72,11EC,1
+     <ITEM name="Breakpoint 7">"main",80001D6,0065,2C23,016B,1
 </ITEM>
      <ITEM name="Breakpoint 8">"main",800019C,008F,5571,11EC,-1
 </ITEM>
@@ -358,10 +361,10 @@
      <ITEM name="DISPOPCODES">No</ITEM>
      <ITEM name="FIXUPBPTS">Yes</ITEM>
      <ITEM name="WordsOnly">No</ITEM>
-     <ITEM name="nBreakpoints">0</ITEM>
+     <ITEM name="nBreakpoints">8</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1990" x="290" flags="0000000a" y="-211" h="124" pid="101" iid="1">
+   <POPUP w="1990" x="290" flags="0000000a" y="-348" h="261" pid="101" iid="1">
     <PROPERTIES>
      <ITEM name="Address Column Width">636</ITEM>
      <ITEM name="AutoResize">No</ITEM>
@@ -378,10 +381,10 @@
      <ITEM name="nItems">0</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="258" x="290" flags="00000008" y="-992" h="216" pid="102" iid="1">
+   <POPUP w="30" x="290" flags="00000008" y="-992" h="13" pid="102" iid="1">
     <PROPERTIES/>
    </POPUP>
-   <POPUP w="194" x="290" flags="00000008" y="-992" h="281" pid="191" iid="1">
+   <POPUP w="22" x="290" flags="00000008" y="-992" h="18" pid="191" iid="1">
     <PROPERTIES/>
    </POPUP>
    <POPUP w="16" x="48" flags="0000000a" y="-1190" h="32" pid="330" iid="1">
