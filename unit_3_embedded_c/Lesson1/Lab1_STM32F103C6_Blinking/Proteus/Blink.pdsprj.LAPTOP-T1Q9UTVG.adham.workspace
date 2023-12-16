@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff0f000000d1faffff21030000bfffffff</PLACEMENT>
+  <PLACEMENT>2c0000000000000001000000fffffffffffffffffffffffffffffffffeffffffbefaffffbf040000acffffff</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
@@ -335,7 +335,7 @@
      <ITEM name="TopLineAddress">40023000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1023" x="732" flags="0000002a" y="-1025" h="539" pid="100" iid="1">
+   <POPUP w="1023" x="732" flags="0000002b" y="-1025" h="539" pid="100" iid="1">
     <PROPERTIES>
      <ITEM name="Breakpoint 0">"frame_dummy",8000170,001B,F7A2,016B,-1
 </ITEM>
@@ -381,10 +381,10 @@
      <ITEM name="nItems">0</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="258" x="290" flags="00000008" y="-992" h="216" pid="102" iid="1">
+   <POPUP w="30" x="290" flags="00000008" y="-992" h="13" pid="102" iid="1">
     <PROPERTIES/>
    </POPUP>
-   <POPUP w="194" x="290" flags="00000008" y="-992" h="281" pid="191" iid="1">
+   <POPUP w="22" x="290" flags="00000008" y="-992" h="18" pid="191" iid="1">
     <PROPERTIES/>
    </POPUP>
    <POPUP w="16" x="48" flags="0000000a" y="-1190" h="32" pid="330" iid="1">
