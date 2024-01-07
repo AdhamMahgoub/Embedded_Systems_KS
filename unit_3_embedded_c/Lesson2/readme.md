@@ -10,5 +10,8 @@
 ### 4- Entry Point
 ![Alt text](<Lab2_versatilepb_UART/Screenshots/7. Entry Point .PNG>)
 
-### 5- Qemu Simulation
+### 5- Symbol Tables 
+![Alt text](<Lab2_versatilepb_UART/Screenshots/4. Symbol Table .PNG>)
+
+### 6- Qemu Simulation
 ![Alt text](<Lab2_versatilepb_UART/Screenshots/9. Qemu .PNG>)
