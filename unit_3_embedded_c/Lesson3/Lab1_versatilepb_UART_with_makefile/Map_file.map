@@ -1,0 +1,116 @@
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MY_MEM           0x00000000         0x04000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00010000                        . = 0x10000
+
+.startup        0x00010000       0x10
+ startup.o(.text)
+ .text          0x00010000       0x10 startup.o
+                0x00010000                reset
+
+.text           0x00010010       0x74
+ *(.text)
+ .text          0x00010010       0x1c app.o
+                0x00010010                main
+ .text          0x0001002c       0x58 uart.o
+                0x0001002c                UART_Send_String
+
+.glue_7         0x00010084        0x0
+ .glue_7        0x00010084        0x0 linker stubs
+
+.glue_7t        0x00010084        0x0
+ .glue_7t       0x00010084        0x0 linker stubs
+
+.vfp11_veneer   0x00010084        0x0
+ .vfp11_veneer  0x00010084        0x0 linker stubs
+
+.v4_bx          0x00010084        0x0
+ .v4_bx         0x00010084        0x0 linker stubs
+
+.iplt           0x00010084        0x0
+ .iplt          0x00010084        0x0 startup.o
+
+.rodata         0x00010084        0x4
+ *(.rodata)
+ .rodata        0x00010084        0x4 app.o
+                0x00010084                x
+
+.rel.dyn        0x00010088        0x0
+ .rel.iplt      0x00010088        0x0 startup.o
+
+.data           0x00010088       0x64
+ *(.data)
+ .data          0x00010088        0x0 startup.o
+ .data          0x00010088       0x64 app.o
+                0x00010088                string_buffer
+ .data          0x000100ec        0x0 uart.o
+
+.igot.plt       0x000100ec        0x0
+ .igot.plt      0x000100ec        0x0 startup.o
+
+.bss            0x000100ec       0x49
+ *(.bss)
+ .bss           0x000100ec        0x0 startup.o
+ .bss           0x000100ec        0x4 app.o
+                0x000100ec                y
+ .bss           0x000100f0        0x0 uart.o
+ *(.comment)
+ .comment       0x000100f0       0x45 app.o
+                                 0x46 (size before relaxing)
+ .comment       0x00010135       0x46 uart.o
+
+.ARM            0x00010000       0x7a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00010000       0x22 startup.o
+ .ARM.attributes
+                0x00010022       0x2c app.o
+ .ARM.attributes
+                0x0001004e       0x2c uart.o
+
+.debug          0x00010138      0x50c
+ *(.debug_info)
+ .debug_info    0x00010138       0x26 startup.o
+ .debug_info    0x0001015e       0xab app.o
+ .debug_info    0x00010209       0x5a uart.o
+ *(.debug_abbrev)
+ .debug_abbrev  0x00010263       0x14 startup.o
+ .debug_abbrev  0x00010277       0xa8 app.o
+ .debug_abbrev  0x0001031f       0x54 uart.o
+ *(.debug_loc)
+ *(.debug_aranges)
+ *fill*         0x00010373        0x5 
+ .debug_aranges
+                0x00010378       0x20 startup.o
+ .debug_aranges
+                0x00010398       0x20 app.o
+ .debug_aranges
+                0x000103b8       0x20 uart.o
+ *(.debug_line)
+ .debug_line    0x000103d8       0x37 startup.o
+ .debug_line    0x0001040f       0x45 app.o
+ .debug_line    0x00010454       0x4e uart.o
+ *(.debug_str)
+ .debug_str     0x000104a2      0x144 startup.o
+                                 0x99 (size before relaxing)
+ .debug_str     0x000105e6      0x119 app.o
+ .debug_str     0x000105e6      0x106 uart.o
+ *(.debug_frame)
+ *fill*         0x000105e6        0x2 
+ .debug_frame   0x000105e8       0x2c app.o
+ .debug_frame   0x00010614       0x30 uart.o
+                0x00011644                        . = (. + 0x1000)
+                0x00011644                        stack_top = .
+LOAD app.o
+LOAD uart.o
+LOAD startup.o
+OUTPUT(learn-in-depth.elf elf32-littlearm)
+LOAD linker stubs
