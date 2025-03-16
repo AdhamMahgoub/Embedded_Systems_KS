@@ -78,10 +78,10 @@ LOAD linker stubs
  .debug_line    0x00000000       0x87 main.o
  .debug_line    0x00000087       0x38 startup.o
 
-.debug_str      0x00000000      0x253
- .debug_str     0x00000000      0x253 main.o
-                                0x26f (size before relaxing)
- .debug_str     0x00000253       0x86 startup.o
+.debug_str      0x00000000      0x259
+ .debug_str     0x00000000      0x259 main.o
+                                0x275 (size before relaxing)
+ .debug_str     0x00000259       0x8c startup.o
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 main.o

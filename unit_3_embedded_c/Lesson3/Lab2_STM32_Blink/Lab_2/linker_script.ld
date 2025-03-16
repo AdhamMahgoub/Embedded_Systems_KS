@@ -20,5 +20,5 @@ SECTIONS
     .data :
     {
         *(.data*)
-    } > flash 		/* Keeping .data in flash for now */
+    } > flash 			/* Keeping .data in flash for now -- because I haven't created the copying to RAM in startup.s yet */
 }
