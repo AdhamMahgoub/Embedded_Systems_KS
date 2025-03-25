@@ -22,8 +22,6 @@ typedef volatile unsigned int vuint32_t;
 #define APB2ENR_Register *((volatile unsigned int*)(RCC_Module_Base_Address + APB2ENR_Register_Offset))
 
 
-
-
 typedef union
 {
 	unsigned int ALL_ports;
@@ -81,6 +79,10 @@ volatile U_union* PTR_APB2ENR = (volatile U_union*)(RCC_Module_Base_Address + AP
 volatile U_union* PTR_GPIO_ODR = (volatile U_union*)(GPIOA_Module_Base_Address + GPIO_ODR_Register_Offset);	// Pointer to Union // points to the address of register ODR register
 volatile U_union* PTR_GPIO_CRH = (volatile U_union*)(GPIOA_Module_Base_Address + GPIO_CRH_Register_Offset);
 
+int x_bss_var;  // .bss section (un-initialized global)
+char y_bss_var; // .bss section (un-initialized global)
+
+
 int main(void)
 {
 	// write (1) on Register APB2ENR pin 2
@@ -92,7 +94,7 @@ int main(void)
 	CRH_Register &= 0xFF0FFFFF;
 	CRH_Register |= 0x00200000;
 
-
+	y_bss_var = 3; // changing the value inside the .bss
 	int i = 0;
 
 	while(1)

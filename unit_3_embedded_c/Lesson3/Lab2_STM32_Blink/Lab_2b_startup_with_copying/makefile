@@ -1,6 +1,6 @@
 CC=arm-none-eabi-
 
-CFLAGS = -mcpu=cortex-m3 -gdwarf-2
+CFLAGS = -mcpu=cortex-m3 -gdwarf-2 -g
 
 INCS=-I .
 
