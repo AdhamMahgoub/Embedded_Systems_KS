@@ -7,10 +7,13 @@ int global_initialized_data = 5;
 double global_uninitialized_bss; 
 
 
+volatile unsigned long* GPIO_PORTF_DATA_R = (volatile unsigned long *)0x400253FC;
+
 
 int main(void)
 {
-	volatile unsigned long* GPIO_PORTF_DATA_R = (volatile unsigned long *)0x400253FC;
+
+
 
 	unsigned long arr_disrupt [245]; // stored in stack
     volatile unsigned long delay_count;
@@ -28,9 +31,10 @@ int main(void)
         *GPIO_PORTF_DATA_R &= ~(1 << 3);        // Clear PF3
         for (delay_count = 0; delay_count < 200000; delay_count++); // Delay
 		
-		for (int i = 0; i < 245; i++) {
+		for (volatile int i = 0; i < 245; i++) 
+		{
 			arr_disrupt[i] = i * 10; // or any other logic you want
-    }
+		}
 	
 	}
 
